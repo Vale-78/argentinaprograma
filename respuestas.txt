@@ -1,0 +1,29 @@
+RESPUESTAS PRÁCTICO "0"
+
+1)   a. resta.js
+       ¿Qué valor devuelve su programa si el minuendo es 10 y el
+     sustraendo 2?  
+          rta = 8
+     b. multiplicacion.js
+       ¿Qué valor devuelve su programa si los números son 2 *17 * 6?
+          rta = 204
+
+2)areaRectangulo.js
+     a. ¿Cuál es el área de un rectángulo de base 5cm y altura 3cm?
+           rta = 15
+     b. ¿Cuál es el área de un rectángulo de base 12.5cm y altura 5.3cm?
+           rta = 66.25
+
+3)conversionGrados.js
+    a. ¿Cuántos grados C son 50 F?
+           rta = 10
+    b. ¿Cuántos grados C son 75 F?
+           rta = 23.88888888888889
+
+4)promedio3.js
+    a. ¿Cuál es el promedio entre 5, 7 y 9?
+           rta = 7
+    b. ¿Cuál es el promedio entre -2 , -3, -8?
+           rta = -4.333333333333333
+    c. ¿Cuál es el promedio entre -1.2, 5.3, -3.3?
+           rta = 0.2666666666666666
