@@ -13,12 +13,9 @@ console.log("El indice del substring es: "+ indice);
 let citaRevisada = cita.slice(0,13) + substring.slice(0,20);
 console.log(citaRevisada);
 
-let citaRevisada2 = cita.replace("en un trigal", "");
-console.log(citaRevisada2);
 
 // RESPUESTAS
 // [Running] node "c:\Users\Usuario\Famaf-IntroJS\practico1\tempCodeRunnerFile.js"
 // El tamaño de la cita es: 44.
 // El indice del substring es: 13
 // Tres tristes tigres comen trigo
-// Tres tristes tigres comen trigo 
