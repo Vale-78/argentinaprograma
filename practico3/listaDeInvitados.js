@@ -20,23 +20,16 @@ for(let i = 0; i < personas.length; i++){
         admitidos.push(admitido);
     }
 }
-
     let persRechazadas= `La lista de invitados rechazados es: `;
-    for(let i = 0; i < rechazados.length; i++){
-        if(i== (rechazados.length-1)){
-            persRechazadas += rechazados[i] + ".";
-        }else{
-            persRechazadas += rechazados[i] + ", ";
-        }
+    console.log(persRechazadas);
+   
+    for(let i = 0; i < rechazados.length; i++){  
+        console.log(rechazados[i]);
     }
-console.log(persRechazadas);
 
     let persAdmitidas = `La lista de invitados admitidos es: `;
+    console.log(persAdmitidas);
+    
     for(let i = 0; i < admitidos.length; i++){
-        if(i== (admitidos.length-1)){
-            persAdmitidas += admitidos[i] + ".";
-        }else{
-            persAdmitidas += admitidos[i] + ", ";
-        }
+       console.log(admitidos[i]);
     }
-console.log(persAdmitidas);

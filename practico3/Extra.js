@@ -17,9 +17,29 @@ for(let i = 0; i < personas.length; i++){
         let admitido = personas[i];
         admitidos.push(admitido);
     }
-
 }
-let rechazados2 = rechazados.sort();
-let admitidos2 = admitidos.sort();
-console.log(`La lista ordanada de invitados rechazados es: ${rechazados2}.`);
-console.log(`La lista ordanada de invitados admitidos es: ${admitidos2}.`);
+let persRechazadas= `La lista de invitados rechazados es: `;
+console.log(persRechazadas);
+
+    for(let i = 0; i < rechazados.length; i++){      
+        for(let j = 0 ; j < rechazados.length-i; j++){
+            if(rechazados[j]> rechazados[j+1]) {
+                [rechazados[j], rechazados[j+1]]=[rechazados[j+1], rechazados[j]];
+            }
+        }  
+     console.log(rechazados[i]);   
+    }
+
+
+let persAdmitidas = `La lista de invitados admitidos es: `; 
+console.log(persAdmitidas);
+    
+    for(let i = 0; i < admitidos.length; i++){      
+        for(let j = 0 ; j < admitidos.length-i; j++){
+            if(admitidos[j]> admitidos[j+1]) {
+                [admitidos[j], admitidos[j+1]]=[admitidos[j+1], admitidos[j]];
+            }
+        }   
+     
+    }
+    console.log(admitidos);  
