@@ -29,7 +29,6 @@ function obtenerJugadaUsuario(){
     return numero;
 }
 
-
 function determinarGanador(usuario,compu){
     let resultado;
     if(usuario==compu){

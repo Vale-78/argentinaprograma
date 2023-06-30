@@ -50,7 +50,7 @@ while(ganaPC < numeroJugadas && ganaUsuario < numeroJugadas){
 
         let compuElige = obtenerJugadaComputadora();
         let resultadoFinal = determinarGanador(eleccionJugador,compuElige);
-        console.log(`La computadora eligió: ${jugadaCompu},ul usuario eligió: ${eleccionJugador}. ${resultadoFinal}.`);
+        console.log(`La computadora eligió: ${jugadaCompu}, el usuario eligió: ${eleccionJugador}. ${resultadoFinal}.`);
     }
 
  console.log(`Usuario gana ${ganaUsuario} veces. Computadora gana ${ganaPC} veces`);

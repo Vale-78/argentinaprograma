@@ -49,7 +49,7 @@ if(numeroJugadas==1 || numeroJugadas==3){
             let compuElige = obtenerJugadaComputadora();
             let resultadoFinal = determinarGanador(eleccionJugador,compuElige);
 
-            console.log(`La computadora eligió: ${jugadaCompu},ul usuario eligió: ${eleccionJugador}. ${resultadoFinal}.`);
+            console.log(`La computadora eligió: ${jugadaCompu}, el usuario eligió: ${eleccionJugador}. ${resultadoFinal}.`);
         }
 }else if(numeroJugadas==2){
     
@@ -94,7 +94,7 @@ if(numeroJugadas==1 || numeroJugadas==3){
 
         let compuElige = obtenerJugadaComputadora();
         let resultadoFinal = determinarGanador(eleccionJugador,compuElige);
-        console.log(`La computadora eligió: ${jugadaCompu},ul usuario eligió: ${eleccionJugador}. ${resultadoFinal}.`);
+        console.log(`La computadora eligió: ${jugadaCompu}, el usuario eligió: ${eleccionJugador}. ${resultadoFinal}.`);
     }
 }
 
