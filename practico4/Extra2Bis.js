@@ -2,9 +2,8 @@
 
 // aquí, el código es más simple pero en vez de de jugar dos veces en la opción 2, gana el que gana dos veces.
 
-
-const readlineSync2 = require('readline-sync');
-const numeroJugadas = readlineSync2.question('Elige "1" si quieres jugar una vez, "2" si quieres que gane el mejor de 2,o "3" si prefieres que gane el mejor de 3: ');
+const readlineSync = require('readline-sync');
+const numeroJugadas = readlineSync.question('Elige "1" si quieres jugar una vez, "2" si quieres que gane el mejor de 2,o "3" si prefieres que gane el mejor de 3: ');
 
 const piedra = "piedra";
 const papel = "papel";
@@ -30,7 +29,6 @@ while(ganaPC < numeroJugadas && ganaUsuario < numeroJugadas){
         return jugadaCompu;
         }
 
-        const readlineSync = require('readline-sync');
         const eleccionJugador = readlineSync.question('Elige : piedra, papel o tijeras: ').toLowerCase();     
 
         function determinarGanador(usuario,compu){

@@ -1,6 +1,6 @@
 
-const readlineSync2 = require('readline-sync');
-const numeroJugadas = readlineSync2.question('Elige "1" si quieres jugar una vez, "2" si quieres que se jueguen dos partidas,o "3" si prefieres que gane el mejor de 3, en este caso ganará quien tenga al menos dos partidas ganadas: ');
+const readlineSync = require('readline-sync');
+const numeroJugadas = readlineSync.question('Elige "1" si quieres jugar una vez, "2" si quieres que se jueguen dos partidas,o "3" si prefieres que gane el mejor de 3, en este caso ganará quien tenga al menos dos partidas ganadas: ');
 
 const piedra = "piedra";
 const papel = "papel";
@@ -27,8 +27,6 @@ if(numeroJugadas==1 || numeroJugadas==3){
                 }
             return jugadaCompu;
             }
-
-            const readlineSync = require('readline-sync');
             const eleccionJugador = readlineSync.question('Elige : piedra, papel o tijeras: ').toLowerCase();     
 
             function determinarGanador(usuario,compu){
@@ -71,7 +69,6 @@ if(numeroJugadas==1 || numeroJugadas==3){
         return jugadaCompu;
         }
 
-        const readlineSync = require('readline-sync');
         const eleccionJugador = readlineSync.question('Elige : piedra, papel o tijeras: ').toLowerCase();     
 
         function determinarGanador(usuario,compu){
